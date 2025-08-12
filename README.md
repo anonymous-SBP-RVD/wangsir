@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-orange.svg)](https://pytorch.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io/)
 
 本项目是一个从 **零基础构建 GPT 大语言模型** 到 **多种微调策略** 再到 **实际 Web 部署** 的完整学习与实践项目。  
@@ -33,7 +33,7 @@ cd wangsir
 # 2. 安装依赖
 pip install streamlit torch tiktoken pandas plotly
 
-# 3. 训练所需模型（详见下方"重要提醒"）
+# 3. 训练所需模型（详见下方"重要提醒"部分的具体命令）
 # 4. 一键启动 Web 应用
 cd deployWebapp
 python autodeploy.py
@@ -48,6 +48,7 @@ cd project/Fine-Tuning_Classifier  # 或其他项目目录
 # 2. 查看具体训练说明
 cat README.md  # 每个项目都有详细说明
 
+```
 
 **🎮 应用端口：**
 * 🤖 AI 聊天助手：`8502`
@@ -87,20 +88,25 @@ wangsir/
 
 ---
 
-## 🎮 应用功能
+## 📸 应用演示
 
-### 🤖 AI 聊天助手
+### 🤖 AI智能聊天助手
+<img src="images/ai_chat_assistant.png" alt="AI聊天助手界面" width="700">
 
-* 多人格选择（友善、专业、创意、导师）
-* 实时调节 Temperature、Top-K
-* 对话历史保存与清除
-* GPU 加速推理
+**功能特色：**
+- 🎭 多种人格模式（友善助手、专业顾问、创意伙伴、学习导师）
+- ⚡ 实时参数调节（Temperature、Top-K、生成长度）
+- 💾 对话历史管理与统计
+- 🚀 GPU加速推理，响应迅速
 
-### 🛡 垃圾短信分类器
+### 🛡️ 智能垃圾短信检测系统
+<img src="images/spam_detection.png" alt="垃圾短信检测界面" width="700">
 
-* 实时短信检测
-* 置信度评分与风险等级提示
-* 历史检测统计与可视化
+**检测能力：**
+- 🎯 高精度识别垃圾短信（准确率99%+）
+- 📊 置信度评分与风险等级评估
+- 📈 检测历史统计与可视化分析
+- ⚠️ 智能安全提醒与防护建议
 
 ---
 
@@ -177,6 +183,11 @@ python autodeploy.py
 * [Hugging Face](https://huggingface.co/) - Transformers 生态
 * [Streamlit](https://streamlit.io/) - 快速构建 Web 应用
 
+---
+
+## 📜 开源协议
+
+本项目采用开源分享，欢迎学习和交流使用。
 
 ---
 
